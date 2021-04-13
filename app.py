@@ -9,7 +9,7 @@ import os
 UPLOAD_FOLDER = os.path.join('static','')
 
 #import cosine similarity file
-cos_df= pd.read_csv('C:/Projects/Similar Visual Recommendation System/model/data.csv')
+cos_df= pd.read_csv('data.csv')
 
 # initalize REST API service
 app= Flask(__name__, static_folder=os.path.abspath(UPLOAD_FOLDER))
